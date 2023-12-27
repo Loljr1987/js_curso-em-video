@@ -7,7 +7,7 @@
     <style>
         body {
             background-color: rgb(84, 84, 207);
-            color: bisque;
+            color: bisque; /* comentário em css */
             font: normal 18px "Courrier New";
         }
         h1 {
@@ -16,12 +16,11 @@
     </style>
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
+    <h1>Olá, Mundo!</h1> <!-- comentário em html -->
     <p>Já me livrei da maldição.</p>
-    <script>
-        window.alert('Minha primeira mensagem') 
-        window.confirm('Estás gostando?')
-        window.prompt('Qual teu nome?')
+    <script>     
+        var nome = prompt('Qual teu nome?'); // comentario em js
+        window.alert('É um grande prazer em te conhecer, ' + nome + '!'); // concatenação sinal de '+'
     </script>
 </body>
 </html>
